@@ -1,14 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html{
-padding: 0;
-margin: 0;
-}
-
 .hero_main{
-  background: hsla(217, 21%, 33%, 1);
+    background: hsla(217, 21%, 33%, 1);
 
 background: linear-gradient(315deg, hsla(217, 21%, 33%, 1) 0%, hsla(218, 32%, 80%, 1) 57%);
 
@@ -18,4 +9,3 @@ background: -webkit-linear-gradient(315deg, hsla(217, 21%, 33%, 1) 0%, hsla(218,
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#425066", endColorstr="#BBC7DC", GradientType=1 );
 }
-
