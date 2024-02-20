@@ -9,8 +9,8 @@ const Hero = () => {
 
             <div>
 
-        <div className='text-[2.2rem] mt-[7vh] md:text-[3rem] lg:text-[4rem] text-wrap font-mono text-center text-[#FF7B15]'>
-        Lightweight DAS for <span className='solana_color font-semibold'>Solana</span> 
+        <div className='text-[2.2rem] mt-[7vh] md:text-[3rem] lg:text-[4rem] text-wrap font-semibold font-mono text-center text-[#FF7B15]'>
+        Lightweight DAS for <span className='solana_color font-extrabold'>Solana</span> 
         </div>
         <div className='flex justify-center text-[0.8rem] md:text-[1.2rem] items-center gap-4 mt-5 font-serif'>
             <input className='px-3 py-2 rounded-md w-[18rem] ' placeholder='wilfred@gmail.com'/>

@@ -27,10 +27,10 @@ const Features = () => {
   return (
     <div className='bg-[#F1F3F4] px-[10px] py-[15px] flex flex-col items-center'>
         
-        <div className='text-[2.8rem] mt-[5vh] font-serif'>
+        <div className='text-[2.8rem] my-[5vh] font-serif'>
            Features
         </div>
-        <div className='mt-[5vh] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[6rem]'>
+        <div className='my-[5vh] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[6rem]'>
             {
                 featuresList.map((feature, index) => (
                     

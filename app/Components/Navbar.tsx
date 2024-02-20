@@ -60,7 +60,7 @@ const Navbar = () => {
 
 
 
-      const navStyle = 'navbarStyle border-[1px] w-[85vw] transform 0.2s ease fixed top-0 my-8 rounded-[50px] mx-auto backdrop-sepia-0 bg-white/30'
+      const navStyle = 'navbarStyle border-[1px] w-[85vw] font-serif transform 0.2s ease fixed top-0 my-8 rounded-[50px] mx-auto backdrop-sepia-0 bg-white/30'
       const dynamicStyle = !scrollDirectionDown ? "translate-y-[-150%]" : 'translate-y-(0)'
       return (
         <div className={`${navStyle} ${dynamicStyle}`}>
