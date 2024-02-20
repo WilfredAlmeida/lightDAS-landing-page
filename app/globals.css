@@ -19,3 +19,11 @@ background: -webkit-linear-gradient(315deg, hsla(217, 21%, 33%, 1) 0%, hsla(218,
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#425066", endColorstr="#BBC7DC", GradientType=1 );
 }
 
+.solana_color{
+  background-image: linear-gradient(to right top, #9945ff, #0097ff, #00c2ff, #00dede, #14f195);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* For WebKit browsers */
+  display: inline-block;
+}

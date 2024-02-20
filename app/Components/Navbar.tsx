@@ -75,7 +75,7 @@ const Navbar = () => {
                         navLinks.map((nav) => (
 
 
-                            nav.button ? <button className='px-4 py-2 text-[0.8rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</button> : <a href={nav.link} className=' hover:underline active:underline focus:underline text-[0.8rem] lg:text-[1.2rem]'>{nav.name}</a>
+                            nav.button ? <button className='px-2 md:px-4 py-2 text-[0.6rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</button> : <a href={nav.link} className=' hover:underline active:underline focus:underline text-[0.6rem] lg:text-[0.9rem]'>{nav.name}</a>
 
 
                         ))
