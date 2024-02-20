@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className={`${navStyle} ${dynamicStyle}`}>
             <div className='flex w-full items-center justify-between' >
 
-                <a href='/' className='px-10 py-9 flex items-center text-[1.8rem] text-black hover:text-white delay-75 transition-all cursor-pointer gap-5'>
+                <a href='/' className='px-10 py-2 flex items-center text-[1rem] md:text-[1.5rem] lg-[2rem] text-black hover:text-white delay-75 transition-all cursor-pointer gap-5'>
                    <Image src='/Assets/logo.svg' alt="logo" width={50} height={50}/> 
                    <p className='font-semibold'>light DAS</p>
                 </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
                         navLinks.map((nav) => (
 
 
-                            nav.button ? <button className='px-4 py-2 bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</button> : <a href={nav.link} className=' hover:underline active:underline focus:underline'>{nav.name}</a>
+                            nav.button ? <button className='px-4 py-2 text-[0.8rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</button> : <a href={nav.link} className=' hover:underline active:underline focus:underline text-[0.8rem] lg:text-[1.2rem]'>{nav.name}</a>
 
 
                         ))
