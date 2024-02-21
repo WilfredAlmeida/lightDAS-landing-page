@@ -3,15 +3,20 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Features from "./Components/Features";
 import Footer from "./Components/Footer";
+import AllComponentes from "./Components/AllComponentes";
+import Client from "twitter-api-sdk";
 
-export default function Home() {
+export default async function Home() {
+
   return (
     <main>
-      
+       
       {/* <Navbar/> */}
       <Hero />
       <Features />
+      <AllComponentes />
       <Footer />
+      
       
     </main>
   );

@@ -27,3 +27,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#425066", en
   -webkit-text-fill-color: transparent; /* For WebKit browsers */
   display: inline-block;
 }
+
+.navbarStyle{
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.feature{
+  background-image: linear-gradient(to bottom, #f1f3f4, #afb0b1, #727172, #393939, #000000);
+}
