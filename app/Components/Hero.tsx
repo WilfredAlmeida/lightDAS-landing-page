@@ -3,7 +3,7 @@ import './Hero.module.css'
 import Navbar from './Navbar'
 const Hero = () => {
   return (
-    <div className="h-[80vh] bg-black flex justify-center items-center">
+    <div className="h-[80vh] flex justify-center items-center">
       
             <Navbar />
 

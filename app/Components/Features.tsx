@@ -30,16 +30,15 @@ const featuresList = [
 
 const Features = () => {
   return (
-    <div className='bg-[#F1F3F4] shadow-inner shadow-black px-[10px] py-[15px] flex flex-col items-center'>
+    <div className=' shadow-inner px-[10px] py-[15px] flex flex-col items-center'>
         
-        <div className='text-[2.8rem] my-[3vh] font-serif'>
-           Features
-        </div>
+        <h1 className='text-[2.8rem] mt-[3vh] font-serif text-white'>Features</h1>
+      <p className='text-gray-200 mb-[5vh]'>What we offer</p>
         <div className='mb-[7vh] mt-[3vh] mx-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[2rem]'>
             {
                 featuresList.map((feature, index) => (
                     
-                    <Image alt={"features"} width={100} height={100} src={feature.icon} className='w-[70vw] md:w-[60vw] xl:w-[60vw] backdrop-sepia-0 border-[1px] bg-white/30 transition-transform duration-300 hover:scale-110  h-[22rem]  rounded-[18px] shadow-xl border-t-1 flex flex-col p-6' />
+                    <Image alt={"features"} width={100} height={100} src={feature.icon} className='w-[70vw] md:w-[60vw] xl:w-[60vw] bg-[#121212B2]  border-[#2A2427] border-solid border-1 transition-transform duration-300 hover:scale-110  h-[22rem]  rounded-[18px] shadow-xl flex flex-col p-6' />
                      
                    
                 ))

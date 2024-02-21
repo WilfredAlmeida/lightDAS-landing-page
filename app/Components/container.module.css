@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+  
+}
+
+.container :global(.react-tweet-theme) {
+    --tweet-body-font-size: 1rem;
+    --tweet-font-color: white;
+    border: none;
+    --tweet-bg-color: #121212B2; /* Example: semi-transparent white background */
+    backdrop-filter: blur(200px); /* Adjust the px value to control the blur intensity */
+    --tweet-border:1px solid #2A2A2A
+  
+  }
+  .container :global(.react-tweet-theme) {
+    --tweet-body-font-size: 1rem;
+  }
+
+  .container :global(.tweet-header_separator__d4pqe){
+    display: none;
+  }
+  .container :global(.tweet-header_follow__Fi7bf){
+    display: none;
+  }
+  .container :global(.tweet-info_infoIcon__S8lzA){
+    display: none;
+  }
+  .container :global(.tweet-actions_actions__UDw7H){
+    display: none;
+  }
+  .container :global(.tweet-replies_replies__PUxl8){
+    display: none;
+  }
+  .container :global(.react-tweet-theme:hover) {
+   /* Keeps text color the same on hover */
+    --tweet-bg-color-hover: #121212B2; 
+    --tweet-font-color-hover: white;
+    border: none;
+  }
+
+  
+
+ 

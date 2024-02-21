@@ -7,6 +7,10 @@ padding: 0;
 margin: 0;
 }
 
+body{
+  background: rgb(100,53,17);
+  background: radial-gradient(circle, rgba(100,53,17,1) 0%, rgba(0,0,0,1) 100%);
+}
 .hero_main{
   background: hsla(217, 21%, 33%, 1);
 
@@ -34,5 +38,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#425066", en
 }
 
 .feature{
-  background-image: linear-gradient(to bottom, #f1f3f4, #afb0b1, #727172, #393939, #000000);
+  /* background: rgb(100,53,17); */
+/* background: radial-gradient(circle, rgba(100,53,17,1) 0%, rgba(0,0,0,1) 100%); */
 }
+.overlay_feat{
+  background: linear-gradient(180deg, rgba(14, 14, 14, 0) 13.87%, rgba(14, 14, 14, 0.663518) 50.23%, #0E0E0E 79.82%);
+}
+
