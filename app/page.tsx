@@ -9,7 +9,7 @@ import Client from "twitter-api-sdk";
 export default async function Home() {
 
   return (
-    <main>
+    <main className="font-sixtyfour">
        
       {/* <Navbar/> */}
       <Hero />

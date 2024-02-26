@@ -5,7 +5,7 @@ import { FaGithubAlt } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 const Footer = () => {
   return (
-    <div className='bg-[#FF7B15] px-[10px] w-full py-[15px] font-serif'>
+    <div className='bg-[#FF7B15] px-[10px] w-full py-[15px] '>
         <div className='grid grid-cols-3  w-[100%] mx-auto'>
             <div className='flex items-center justify-center'>
             <a href='/' className='flex items-center text-[1rem] md:text-[1.5rem] lg-[2rem] hover:text-black text-white delay-75 transition-all cursor-pointer gap-5'>
