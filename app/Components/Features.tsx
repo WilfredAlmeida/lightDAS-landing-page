@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { featuresList } from '../utils/Data/features'
 const Features = () => {
   return (
-    <div id="features" className='transition-all max-w-full shadow-inner px-[10px] py-[15px] flex flex-col items-center'>
+    <div id="features" className='transition-1ll shadow-inner px-[10px] py-[15px] flex flex-col items-center'>
         
         <h1 className='text-[2.8rem] mt-[3vh] font-anta text-white'>Features</h1>
       <p className='text-gray-200 mb-[5vh]'>What we offer</p>
