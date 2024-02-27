@@ -5,7 +5,7 @@ import KnowTheTeam from './Roadmap'
 const AllComponentes = async () => {
    
   return (
-    <div className='feature px-[10px] py-[15px] flex flex-col items-center'>
+    <div className='feature px-[10px] max-w-full py-[15px] flex flex-col items-center'>
         <TweetPage />
         <KnowTheTeam />
 
