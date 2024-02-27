@@ -5,15 +5,15 @@ export const navLinks = [
     },
     {
         name: "GitHub",
-        link: "/"
+        link: "https://github.com/WilfredAlmeida/LightDAS"
     },
     {
         name: "Features",
-        link: "/"
+        link: "#features"
     },
     {
         name: "Follow Us Now",
-        link: "/",
+        link: "https://twitter.com/lightdas_",
         button: true
     },
 ]

@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { navLinks } from '../utils/Data/navbarData'
+import Link from 'next/link'
 
 const Navbar = () => {
 
@@ -57,7 +58,7 @@ const Navbar = () => {
                         navLinks.map((nav) => (
 
 
-                            nav.button ? <button className='px-2 md:px-4 py-2 text-[0.6rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</button> : <a href={nav.link} className=' hover:underline active:underline focus:underline text-[0.6rem] lg:text-[0.9rem]'>{nav.name}</a>
+                            nav.button ? <Link href={nav.link} target='_blank' className='px-2 md:px-4 py-2 text-[0.6rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]'>{nav.name}</Link> : <a href={nav.link} target='_blank' className=' hover:underline active:underline focus:underline text-[0.6rem] lg:text-[0.9rem]'>{nav.name}</a>
 
 
                         ))
