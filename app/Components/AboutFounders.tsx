@@ -26,10 +26,10 @@ const AboutFounders = () => {
                          <>
                          <Image src={founder.image} width={60} height={60} alt="founder's profile" className=' w-[60px] h-[60px] relative bottom-[60px] rounded-md object-cover'/>
                          <div className='flex py-4  px-2 lg:px-6 gap-4  lg:gap-4 absolute top-0 right-0'>
-              <Link href={"https://twitter.com/lightdas_"} target='_blank'>
+              <Link href={founder.twitter} target='_blank'>
               <BsTwitterX style={{color: "white"}}/>
               </Link>
-              <Link href={"https://github.com/WilfredAlmeida/LightDAS"} target='_blank'>
+              <Link href={founder.github} target='_blank'>
               <FaGithubAlt style={{color: "white"}}/>
                 </Link>
             
