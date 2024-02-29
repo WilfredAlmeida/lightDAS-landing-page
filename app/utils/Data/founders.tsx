@@ -4,69 +4,69 @@ import { GoPersonFill } from "react-icons/go";
 import { TbCurrencySolana } from "react-icons/tb";
 
 interface DataItem {
-    icon: JSX.Element;
-    point: string;
-  }
+  icon: JSX.Element;
+  point: string;
+}
 
-  interface founderItem {
-    name : string,
-    image: string,
-    intro: string,
-    twitter:string,
-    github:string,
-    about: DataItem []
-  }
+interface founderItem {
+  name: string;
+  image: string;
+  intro: string;
+  twitter: string;
+  github: string;
+  about: DataItem[];
+}
 
-export const founders: founderItem[]= [
-    {
-        name: "Aale peelo",
-        image: '/Assets/person.jpeg',
-        intro: "Co-founder light DAS",
-        twitter:"/",
-        github:"/",
-        about: [
-            {
-                icon: <GoPersonFill /> ,
-                point: "Lorem ipsum dolor sit amet "
-            },
-            {
-                icon:<FaPuzzlePiece />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-            {
-                icon:<TbCurrencySolana />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-            {
-                icon:<GiTrophy />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-        ]
-        },    
+export const founders: founderItem[] = [
+  {
+    name: "Wilfred Almeida",
+    image: "/Assets/wilfred.jpeg",
+    intro: "Co-founder LightDAS",
+    twitter: "https://twitter.com/WilfredAlmeida_",
+    github: "https://github.com/WilfredAlmeida/",
+    about: [
+      {
+        icon: <GoPersonFill />,
+        point: "Developer @ Triton One",
+      },
+      {
+        icon: <FaPuzzlePiece />,
+        point: "Prev: Underdog Protocol, Saganize",
+      },
+      {
+        icon: <TbCurrencySolana />,
+        point: "Member @SuperteamDAO",
+      },
+      {
+        icon: <GiTrophy />,
+        point: "Buildooor",
+      },
+    ],
+  },
 
-    {
-        name: "Aale peelo",
-        image: '/Assets/person.jpeg',
-        intro: "Co-founder light DAS",
-        twitter:"/",
-        github:"/",
-        about: [
-            {
-                icon: <GoPersonFill /> ,
-                point: "Lorem ipsum dolor sit amet"
-            },
-            {
-                icon:<FaPuzzlePiece />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-            {
-                icon:<TbCurrencySolana />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-            {
-                icon:<GiTrophy />,
-                point:"Lorem ipsum dolor sit amet"
-            },
-        ]
-    }
-]
+  {
+    name: "Kartik Soneji",
+    image: "/Assets/solana.png",
+    intro: "Co-founder LightDAS",
+    twitter: "https://twitter.com/KartikSoneji_",
+    github: "https://github.com/KartikSoneji",
+    about: [
+      {
+        icon: <GoPersonFill />,
+        point: "Contributor to Metaplex Libraries",
+      },
+      {
+        icon: <FaPuzzlePiece />,
+        point: "Member @SuperteamDAO",
+      },
+      {
+        icon: <TbCurrencySolana />,
+        point: "Solana Maxi",
+      },
+      {
+        icon: <GiTrophy />,
+        point: "Everything Computer Science",
+      },
+    ],
+  },
+];

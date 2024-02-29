@@ -6,7 +6,6 @@ const KnowTheTeam = () => {
     <div className=' shadow-inner px-[10px] mb-[5vh] mt-[5vh] w-full py-[15px] flex flex-col items-center'>
         
     <h1 className='text-[2.8rem] mt-[3vh]  text-white'>Roadmap</h1>
-  <p className='text-gray-200 mb-[5vh]'>What is coming</p>
   <div className='flex justify-start px-[7vw] items-center w-full h-full'>
  
       <ol className="relative border-s border-gray-00 rounded-lg ">

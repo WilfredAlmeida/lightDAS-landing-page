@@ -20,7 +20,7 @@ const TweetPage = () => {
   return (
     <div className='pt-[5vh] flex flex-col items-center justify-center w-[100vw]'>
       <h1 className='text-[2.8rem] mt-[3vh] text-white'>Tweets</h1>
-      <p className='text-gray-200 mb-[5vh]'>Feedbacks & Love from Our Users</p>
+      <p className='text-gray-200 mb-[5vh]'>Words of the Community</p>
       <div className={`h-full relative`}>
       
 
