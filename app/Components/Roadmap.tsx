@@ -8,7 +8,7 @@ const KnowTheTeam = () => {
     <h1 className='text-[2.8rem] mt-[3vh]  text-white'>Roadmap</h1>
   <div className='flex justify-start px-[7vw] items-center w-full h-full'>
  
-      <ol className="relative border-s border-gray-00 rounded-lg ">
+      <ol className="relative border-s border-gray-00 rounded-lg mt-[12vh]">
       {
     roadmapData.map((data, index) => (
          <li className="mb-10 ms-4 ">

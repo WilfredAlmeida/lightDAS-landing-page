@@ -1,13 +1,16 @@
 .container{
   display: flex;
-  justify-content: center;
-  max-width: 100%;
+  justify-content: space-around;
+  max-width: 60vw;
+  height: auto;
+  gap: -15px;
   align-items: center;
+  margin: auto;
   
 }
 
 .container :global(.react-tweet-theme) {
-    --tweet-body-font-size: 1rem;
+    --tweet-body-font-size: 0.6rem;
     --tweet-font-color: white;
     border: none;
     --tweet-bg-color: #121212B2; /* Example: semi-transparent white background */
@@ -16,7 +19,10 @@
   
   }
   .container :global(.react-tweet-theme) {
-    --tweet-body-font-size: 1rem;
+    --tweet-body-font-size: 0.8rem;
+    --tweet-quoted-body-font-size: 0.6rem;
+    --tweet-body-line-height: 1rem;
+    max-width: 350px
   }
 
   .container :global(.tweet-header_separator__d4pqe){

@@ -12,9 +12,7 @@ export default async function Home() {
     <main className="font-sixtyfour max-w-full overflow-x-hidden">
        
       <Hero />
-      <Features />
       <AllComponentes />
-      <Footer />
       
       
     </main>

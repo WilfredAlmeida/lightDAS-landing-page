@@ -4,21 +4,18 @@ import Image from 'next/image'
 import { featuresList } from '../utils/Data/features'
 const Features = () => {
   return (
-    <div id="features" className='transition-1ll shadow-inner px-[10px] py-[15px] flex flex-col items-center'>
+    <div id="features" className='transition-all mt-[7vh] shadow-inner py-[15px] flex flex-col items-center justify-center flex-wrap'>
         
         <h1 className='text-[2.8rem] mt-[3vh] font-anta text-white'>Features</h1>
       
-        <div className='mb-[7vh] mt-[3vh] mx-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[2rem]'>
-            {
-                featuresList.reverse().map((feature, index) => (
-                    
-                    <Image alt={"features"} width={100} height={100} src={feature.icon} className='w-[70vw] md:w-[60vw] xl:w-[60vw] shadow-spotlight  bg-[#121212B2]  border-[#2A2427] border-solid border-1 transition-transform duration-300 hover:scale-110  h-[22rem]  rounded-[18px] flex flex-col p-6'/>
-                     
-                   
-                ))
-            }
-          
-        </div>
+        <div className="mb-14 grid grid-cols-1 mt-[5vh] md:grid-cols-2 xl:grid-cols-3 gap-8 place-content-center">
+ { featuresList.map((feature, index) => (
+    <div key={index} className="w-full md:w-auto xl:w-auto bg-[#121212B2] border-[#2A2427] border-solid border shadow-spotlight transition-transform duration-300 hover:scale-110 h-56 rounded-lg flex flex-col p-6 justify-center items-center">
+      <Image alt="features" src={feature.icon} width={48} height={48} className="w-44 md:w-48 xl:w-48" />
+      {/* Additional content here */}
+    </div>
+  ))}
+</div>
     </div>
   )
 }

@@ -1,16 +1,20 @@
 export const navLinks = [
     {
-        name: "GitHub",
-        link: "https://github.com/WilfredAlmeida/LightDAS"
-    },
-    {
-        name: "About",
-        link: "/"
-    },
-    {
         name: "Features",
-        link: "#features"
+        link: "#features",
+        newpage: false,
     },
+    {
+        name: "GitHub",
+        link: "https://github.com/WilfredAlmeida/LightDAS" ,
+        newpage: true,
+    },
+    {
+        name: "Twitter",
+        link: "https://twitter.com/lightdas_",
+        newpage: true,
+    },
+   
     // {
     //     name: "Follow Us Now",
     //     link: "https://twitter.com/lightdas_",

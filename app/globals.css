@@ -13,7 +13,14 @@ body {
   background: black;
 }
 
-
+.container{
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
 
 /* body{
   background: rgb(100,53,17);

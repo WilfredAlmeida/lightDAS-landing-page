@@ -56,8 +56,8 @@ const Navbar = () => {
           {navLinks.map((nav) =>
           <a
           href={nav.link}
-          target="_blank"
-          className=" hover:underline active:underline focus:underline text-[0.6rem] lg:text-[0.9rem] text-orange-500"
+          target={nav.newpage ? "_blank" : ""}
+          className=" hover:underline active:underline focus:underline text-[0.9rem] hover:text-white delay-75 transition-all lg:text-[1rem] text-orange-500"
         >
           {nav.name}
         </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
             //     className="px-2 md:px-4 py-2 text-[0.6rem] xs:hidden lg:visible md:visible bg-[#FF7B15] hover:bg-slate-200 delay-75 hover:text-gray-900 transition-all text-white rounded-[8px]"
             //   >
             //     {nav.name}
-            //   </Link>
+            //   </Link
             // ) : (
             //   <a
             //     href={nav.link}

@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Light DAS",
   description: "Lightweight DAS for Solana",
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 // favicon.ico
 export default function RootLayout({
