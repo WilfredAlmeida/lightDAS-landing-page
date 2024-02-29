@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   title: "Light DAS",
   description: "Lightweight DAS for Solana",
   icons: {
-    icon: '/logo.svg',
+    icon: '/Assets/logo.svg',
   },
 };
-// favicon.ico
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-    
+
         {children}
         </body>
     </html>
