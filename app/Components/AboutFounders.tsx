@@ -10,7 +10,7 @@ const AboutFounders = () => {
       <h1 className="text-[2.8rem] mt-[3vh]  text-white">Team</h1>
       <p className="text-gray-200 mb-[5vh]">Humans at LightDAS</p>
 
-      <div className="flex flex-col md:flex-row text-white gap-[2vw]  mt-5 ">
+      <div className="flex flex-col md:flex-row text-white gap-[5vh] md:gap-[2vw]  mt-5 ">
         {founders.map((founder, index) => (
           <>
             <div className="md:w-[24w] lg:w-[28vw] relative sm:w-[40vw] xs:w-[70vw]  mt-5   bg-[#121212B2] border-[#2A2427] border shadow-spotlight border-solid border-1 transition-transform duration-300 h-auto md:h-[18rem]  rounded-[18px] flex flex-col p-6">

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex items-center justify-center ">
           <a
             href="/"
-            className="flex items-center text-[1rem] md:text-[1.5rem] lg-[2rem] hover:text-black text-white delay-75 transition-all cursor-pointer gap-5"
+            className="flex items-center text-[1rem] md:text-[1.5rem] lg-[2rem text-white delay-75 transition-all cursor-pointer gap-5"
           >
             <Image
               src="/Assets/logo.svg"
